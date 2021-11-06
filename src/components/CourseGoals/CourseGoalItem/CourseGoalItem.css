@@ -1,0 +1,17 @@
+@font-face {
+  font-family:featle;
+  src: url(../../../assets/featly-note-font/FeatlyNoteRegular-mLmEP.ttf);
+}
+
+.goal-item {
+  margin: 1rem 0;
+   background: #c4ffc2a1;
+  box-shadow: 0 2px 8px rgba(126, 126, 126, 0.452); 
+  color: #000;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  /* border-radius: 2rem; */
+  /* text-align: center; */
+  font-size: 20px;
+  font-family: featle;
+}
