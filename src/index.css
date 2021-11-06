@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  margin: 0;
-  background-color: #3f3f3f;
+  margin: auto;
+  background-image: url(../src/assets/dotted.png);
 }
-
