@@ -37,10 +37,14 @@ const App = () => {
   }
 
   return (
+ 
     <React.Fragment>
+    
       <Header />
       <section id="goal-form">
+        <main>
         <CourseInput onAddGoal={addGoalHandler} />
+        </main>
       </section>
       <section id="goals">
         {content}
@@ -52,7 +56,9 @@ const App = () => {
         ) // <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
         } */}
       </section>
+      
     </React.Fragment>
+  
   );
 }
 
