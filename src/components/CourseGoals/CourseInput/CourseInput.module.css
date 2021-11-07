@@ -1,6 +1,6 @@
 @font-face{
   font-family: humble;
-  src: url(../../../assets/tomatoes-font/Tomatoes-O8L8.ttf);
+  src: url(../../../assets/Circular\ Std\ Book.ttf);
   
 }
 
@@ -13,6 +13,7 @@
   display: block;
   margin-bottom: 1rem;
   font-family: humble;
+  /* font-weight: bold; */
 }
 @font-face {
   font-family: featle;
@@ -22,18 +23,19 @@
 .form-control input {
   display: block;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(24, 22, 22, 0.534);
   font: inherit;
   line-height: 2.3rem;
   padding: 0 0.25rem;
   margin-bottom: 2rem;
   font-family: featle;
+  background: #f1f1f193;
 }
 
 .form-control input:focus {
   outline: none;
-  background: #fad0ec;
-  border-color: #8b005d;
+  background: #ffffff93;
+  border-color: rgb(99, 99, 99);
   
 }
 
@@ -45,6 +47,3 @@
   background: rgb(247, 210, 210);
 }
 
-.form-control.invalid label {
-  color: red;
-}

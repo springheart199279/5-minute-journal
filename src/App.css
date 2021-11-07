@@ -11,9 +11,9 @@
   margin: auto;
   margin-top: -10rem;
   position: relative;
-  background-color: #131212;
-  color: white;
+  background-color: #fff2cab6;
+  color: black;
   border-radius: 14px;
   padding: 1rem;
-  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.13);
 }

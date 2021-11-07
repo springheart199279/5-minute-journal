@@ -42,6 +42,7 @@ const App = () => {
     
       <Header />
       <section id="goal-form">
+    
         <main>
         <CourseInput onAddGoal={addGoalHandler} />
         </main>

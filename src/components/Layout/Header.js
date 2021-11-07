@@ -1,5 +1,5 @@
 import React from "react";
-import space from "../../assets/sun.jpeg";
+import space from "../../assets/bgd.jpg";
 import classes from "./Header.module.css";
 import HeaderButton from "./HeaderButton";
 
