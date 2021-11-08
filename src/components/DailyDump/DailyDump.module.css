@@ -1,0 +1,32 @@
+.card{
+    display: block;
+    border-radius: 10px;
+    background-color:#c4ffc2a1 ;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin:auto;
+    position: relative;
+    color: black;
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.13);
+    
+}
+
+textarea{
+display: block;
+  width: 100%;
+  border: 0px solid rgba(24, 22, 22, 0.534);
+  font: inherit;
+  line-height: 2.3rem;
+  padding: 0 0.25rem;
+  margin-bottom: 2rem;
+  font-family: featle;
+  background: #f1f1f193;
+  word-wrap: normal;
+}
+
+textarea:focus{
+    outline: none;
+}

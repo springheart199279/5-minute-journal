@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 import CourseGoalList from './components/CourseGoals/CourseGoalList/CourseGoalList';
 import CourseInput from './components/CourseGoals/CourseInput/CourseInput';
+import DailyDump from "./components/DailyDump/DailyDump";
 import './App.css';
 
 const App = () => {
@@ -57,7 +58,7 @@ const App = () => {
         ) // <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
         } */}
       </section>
-      
+      <DailyDump />
     </React.Fragment>
   
   );
