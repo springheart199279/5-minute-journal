@@ -1,27 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./CalendarApp.module.css";
 import Icon from "../MenuButton/Icon"
 const CalendarApp = (props) => {
   
-  const openMenu=()=>{
-      document.getElementById("myDropdown").classList.toggle('styles.show');
-  }
-  
+ const[showMenu, setShowMenu]= useState(false);
 
+ const toggleButtonHandler=()=>{
+ setShowMenu(prevState=> !prevState);
+ };
 
   return (
-    <button className={styles.button} onClick={openMenu}>
+    <button className={styles.button} onMouseOver={toggleButtonHandler}>
       <span className={styles.icon}>
         <Icon />
         </span>
-        
-  <div id="myDropdown" className={styles.content}>
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-
-    </button>
+        {showMenu && <p>This is new!</p>}
+      </button>
   );
 };
 
